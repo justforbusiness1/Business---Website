@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Java Coffee | Premium Indonesian Coffee Exporter</title>
+    <meta name="description" content="Universal Java Coffee is a trusted Indonesian exporter of premium Arabica and Robusta coffee beans. Sustainable sourcing directly from farmers to the world.">
+    <meta name="keywords" content="Indonesian coffee, coffee exporter, green coffee beans, Arabica, Robusta, Gayo coffee, Toraja coffee, wholesale coffee">
+    <meta name="author" content="Universal Java Coffee">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.universaljavacoffee.com/">
+    <meta property="og:title" content="Universal Java Coffee | Premium Indonesian Coffee Exporter">
+    <meta property="og:description" content="Specializing in premium Arabica and Robusta coffee beans. Sourced from the Indonesian archipelago.">
+    <meta property="og:image" content="img/overview 7.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.universaljavacoffee.com/">
+    <meta property="twitter:title" content="Universal Java Coffee | Premium Indonesian Coffee Exporter">
+    <meta property="twitter:description" content="Specializing in premium Arabica and Robusta coffee beans. Sourced from the Indonesian archipelago.">
+    <meta property="twitter:image" content="img/overview 7.jpeg">
+
+    <link rel="canonical" href="https://www.universaljavacoffee.com/">
+    <link rel="icon" href="img/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Universal Java Coffee",
+      "url": "https://www.universaljavacoffee.com",
+      "logo": "https://www.universaljavacoffee.com/img/logo.png",
+      "description": "Indonesian export company specializing in premium Arabica and Robusta coffee beans.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-895-6134-54351",
+        "contactType": "sales"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Universal Java Coffee"></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="products.html" class="nav-link" data-i18n="nav_products">Products</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-dropdown-container">
+                    <div class="current-lang-display">
+                        <img src="img/usa.png" id="current-lang-flag" alt="Language">
+                        <span id="current-lang-text">EN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" onclick="changeLanguage('en')"><img src="img/usa.png"> EN</div>
+                        <div class="lang-option" onclick="changeLanguage('id')"><img src="img/indonesia.png"> ID</div>
+                        <div class="lang-option" onclick="changeLanguage('zh')"><img src="img/china.png"> CN</div>
+                        <div class="lang-option" onclick="changeLanguage('ar')"><img src="img/arab.png"> AR</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <!-- Slides will be handled by JS, but here are the images -->
+            <div class="slide active" style="background-image: url('img/background1.avif');"></div>
+            <div class="slide" style="background-image: url('img/background2.avif');"></div>
+            <div class="slide" style="background-image: url('img/background3.avif');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h3 class="animate-text" data-i18n="hero_pretitle">Indonesian Coffee Bean Exporter</h3>
+            <h1 class="animate-text delay-1" data-i18n="hero_title">Universal Java Coffee</h1>
+            <p class="animate-text delay-2" data-i18n="hero_subtitle">is an Indonesian export company specializing in premium Arabica and Robusta coffee beans.</p>
+            <div class="cta-group animate-text delay-4">
+                <a href="products.html" class="btn btn-primary" data-i18n="btn_menu">View Menu</a>
+                <a href="contact.html" class="btn btn-outline" data-i18n="btn_visit">Visit Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Overview Section -->
+    <section id="company-overview">
+        <div class="container">
+            <div class="overview-content">
+                <img src="img/logo.png" alt="Universal Java Coffee" class="overview-logo">
+                <h2 class="overview-brand">Universal Java Coffee</h2>
+                <h3 class="overview-title" data-i18n="hero_overview_title">Company Overview</h3>
+                <p class="company-description" data-i18n="hero_desc">
+                    Universal Java Coffee is an Indonesian export company specializing in high-quality Arabica and Robusta beans, with a strong focus on sustainability, traceability, and long-term partnerships with local farmers.
+                </p>
+            </div>
+            
+            <div class="photo-slider">
+                <div class="slider-track">
+                    <div class="slide-img"><img src="img/overview 1.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 2.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 3.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 4.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 5.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 6.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 7.jpeg"></div>
+                    <!-- Duplicates for infinite scroll -->
+                    <div class="slide-img"><img src="img/overview 1.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 2.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 3.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 4.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 5.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 6.jpeg"></div>
+                    <div class="slide-img"><img src="img/overview 7.jpeg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Product Section -->
+    <section id="our-product" class="section-padding">
+        <div class="container product-overview-container">
+            <div class="product-visual scroll-reveal">
+                <div class="vertical-text" data-i18n="provide_vertical">INDONESIAN COFFEE BEAN EXPORTER</div>
+                <div class="image-wrapper">
+                    <img src="img/blend coffee.avif" alt="Premium Coffee Beans and Cup">
+                </div>
+            </div>
+            <div class="product-content scroll-reveal">
+                <h4 class="section-subtitle" data-i18n="prod_subtitle">OUR PRODUCT</h4>
+                <h2 class="section-title" data-i18n="provide_title">What We Provide</h2>
+                <p class="product-desc" data-i18n="provide_desc">Universal Java Coffee is a supplier of premium-grade green coffee beans from Indonesia, offering both Arabica and Robusta varieties, sourced from highland regions and available in multiple grades for international markets.</p>
+                <a href="products.html" class="btn-explore" data-i18n="btn_explore">Explore our product &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="section-padding">
+        <div class="container">
+            <div class="section-header center-header scroll-reveal">
+                <h4 class="section-subtitle" data-i18n="diff_subtitle">WHAT MAKES US DIFFERENT</h4>
+                <h2 class="section-title" data-i18n="diff_title">Why Choose Us</h2>
+                <div class="line"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-medal"></i></div>
+                    <h3 data-i18n="diff_1_title">High-Quality Beans</h3>
+                    <p data-i18n="diff_1_desc">Selected Arabica and Robusta beans with consistent flavor and export-grade quality.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h3 data-i18n="diff_2_title">Direct from Farmers</h3>
+                    <p data-i18n="diff_2_desc">Coffee sourced directly from trusted Indonesian farmers to ensure freshness, transparency, and traceability.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-sliders"></i></div>
+                    <h3 data-i18n="diff_3_title">Various Processing Options</h3>
+                    <p data-i18n="diff_3_desc">Full Wash, Natural, and Honey processes tailored to different roasting and market needs.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                    <h3 data-i18n="diff_4_title">Reliable Export Support</h3>
+                    <p data-i18n="diff_4_desc">Professional export handling with clear communication and timely worldwide delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export Worldwide Section -->
+    <section id="export-worldwide">
+        <div class="export-visual">
+            <div class="export-slider">
+                <div class="export-slide active" style="background-image: url('img/overview 7.jpeg');"></div>
+                <div class="export-slide" style="background-image: url('img/overview 3.jpeg');"></div>
+                <div class="export-slide" style="background-image: url('img/overview 5.jpeg');"></div>
+            </div>
+        </div>
+        <div class="export-content">
+            <div class="content-wrapper scroll-reveal">
+                <div class="label-group">
+                    <i class="fa-solid fa-globe"></i>
+                    <span class="section-label" data-i18n="export_label">EXPORT WORLDWIDE</span>
+                </div>
+                <h2 class="section-title" data-i18n="export_title">Exporting the Essence of Indonesian Coffee Worldwide</h2>
+                <div class="line align-left"></div>
+                <p class="section-desc" data-i18n="export_desc">Universal Java Coffee is a trusted Indonesian coffee exporter with strong logistics expertise, consistent quality, and long-term international trade partnerships.</p>
+                <a href="contact.html" class="btn-explore light-btn" data-i18n="btn_contact">Contact us &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export Partners Section -->
+    <section id="export-partners" class="section-padding">
+        <div class="container">
+            <div class="section-header center-header scroll-reveal">
+                <h4 class="section-subtitle" data-i18n="partner_subtitle">EXPORT PARTNER</h4>
+                <h2 class="section-title" data-i18n="partner_title">Reliable Export Operations and Logistics</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="partner-slider-container scroll-reveal">
+                <div class="partner-track">
+                    <!-- Original Set -->
+                    <div class="partner-logo"><img src="img/export1.png" alt="Malaysia Airlines"></div>
+                    <div class="partner-logo"><img src="img/export2.png" alt="Garuda Indonesia"></div>
+                    <div class="partner-logo"><img src="img/export3.png" alt="Singapore Airlines"></div>
+                    <div class="partner-logo"><img src="img/export4.png" alt="Qatar Airways"></div>
+                    <div class="partner-logo"><img src="img/export5.png" alt="Etihad Airways"></div>
+                    <div class="partner-logo"><img src="img/export6.png" alt="Emirates"></div>
+                    <div class="partner-logo"><img src="img/export7.png" alt="Turkish Airlines"></div>
+                    <div class="partner-logo"><img src="img/export8.png" alt="COSCO Shipping"></div>
+                    <div class="partner-logo"><img src="img/export9.png" alt="Evergreen"></div>
+                    <div class="partner-logo"><img src="img/export10.png" alt="TEMAS Line"></div>
+                    <div class="partner-logo"><img src="img/export11.png" alt="Maersk"></div>
+                    <div class="partner-logo"><img src="img/export12.png" alt="MSC"></div>
+                    <div class="partner-logo"><img src="img/export13.png" alt="Hapag-Lloyd"></div>
+                    <div class="partner-logo"><img src="img/export14.png" alt="DHL"></div>
+                    <div class="partner-logo"><img src="img/export15.png" alt="Komite Akreditasi Nasional"></div>
+                    <div class="partner-logo"><img src="img/export16.png" alt="Sucofindo"></div>
+                    <div class="partner-logo"><img src="img/export17.png" alt="Beckjorindo Paryaweksana"></div>
+                    
+                    <!-- Duplicate Set for Infinite Loop -->
+                    <div class="partner-logo"><img src="img/export1.png" alt="Malaysia Airlines"></div>
+                    <div class="partner-logo"><img src="img/export2.png" alt="Garuda Indonesia"></div>
+                    <div class="partner-logo"><img src="img/export3.png" alt="Singapore Airlines"></div>
+                    <div class="partner-logo"><img src="img/export4.png" alt="Qatar Airways"></div>
+                    <div class="partner-logo"><img src="img/export5.png" alt="Etihad Airways"></div>
+                    <div class="partner-logo"><img src="img/export6.png" alt="Emirates"></div>
+                    <div class="partner-logo"><img src="img/export7.png" alt="Turkish Airlines"></div>
+                    <div class="partner-logo"><img src="img/export8.png" alt="COSCO Shipping"></div>
+                    <div class="partner-logo"><img src="img/export9.png" alt="Evergreen"></div>
+                    <div class="partner-logo"><img src="img/export10.png" alt="TEMAS Line"></div>
+                    <div class="partner-logo"><img src="img/export11.png" alt="Maersk"></div>
+                    <div class="partner-logo"><img src="img/export12.png" alt="MSC"></div>
+                    <div class="partner-logo"><img src="img/export13.png" alt="Hapag-Lloyd"></div>
+                    <div class="partner-logo"><img src="img/export14.png" alt="DHL"></div>
+                    <div class="partner-logo"><img src="img/export15.png" alt="Komite Akreditasi Nasional"></div>
+                    <div class="partner-logo"><img src="img/export16.png" alt="Sucofindo"></div>
+                    <div class="partner-logo"><img src="img/export17.png" alt="Beckjorindo Paryaweksana"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding bg-warm">
+        <div class="container faq-container">
+            <div class="faq-content scroll-reveal">
+                <h4 class="section-subtitle" data-i18n="faq_subtitle">FAQ – MOST ASKED</h4>
+                <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
+                <p class="faq-desc" data-i18n="faq_desc">
+                    Curious about our sourcing, grading, or export process? We provide transparency at every step, ensuring you get the finest Indonesian beans with clear documentation and reliable shipping.
+                </p>
+            </div>
+            
+            <div class="faq-accordion scroll-reveal">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_q1">What types of coffee do you offer?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a1">We specialize in premium Indonesian Arabica (Gayo, Toraja, Kintamani) and Robusta beans. We supply them as Green Beans, Roasted Beans, or Ground Coffee, available in various grades including Specialty, Grade 1, and Commercial.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_q2">What is your minimum order quantity (MOQ)?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a2">For Green Coffee Beans, our standard MOQ is 1,000 kg (1 Metric Ton). For Roasted or Ground Coffee, we are flexible and can discuss smaller quantities for trial orders or specific market testing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_q3">Can I request samples before placing a bulk order?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a3">Yes, absolutely. We strongly encourage cupping our beans. We provide samples (typically 200g-500g) for quality verification. While the samples are often free, shipping costs are usually covered by the client.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_q4">What are your payment terms?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a4">Our standard terms are T/T (Telegraphic Transfer) with a 50% down payment to start processing and the balance upon Bill of Lading issuance. For large volume contracts, we also accept Irrevocable L/C (Letter of Credit) at sight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2026 Universal Java Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+62895613454351" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

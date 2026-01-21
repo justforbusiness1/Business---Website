@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Universal Java Coffee</title>
+    <meta name="description" content="Learn about Universal Java Coffee's story, from volcanic soil to your cup. We are dedicated to ethical sourcing and preserving Indonesian coffee heritage.">
+    <meta name="keywords" content="coffee history, ethical sourcing, fair trade coffee, Indonesian coffee culture">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="About Us | Universal Java Coffee">
+    <meta property="og:description" content="Rooted in Indonesian heritage, we craft coffee with respect, balance, and intention.">
+    <meta property="og:image" content="img/founder.jpg">
+    
+    <link rel="canonical" href="https://www.universaljavacoffee.com/about.html">
+    <link rel="icon" href="img/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntityOfPage": "https://www.universaljavacoffee.com/about.html",
+      "headline": "Our Story: From Bean to Cup"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Universal Java Coffee"></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="products.html" class="nav-link" data-i18n="nav_products">Products</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-dropdown-container">
+                    <div class="current-lang-display">
+                        <img src="img/usa.png" id="current-lang-flag" alt="Language">
+                        <span id="current-lang-text">EN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" onclick="changeLanguage('en')"><img src="img/usa.png"> EN</div>
+                        <div class="lang-option" onclick="changeLanguage('id')"><img src="img/indonesia.png"> ID</div>
+                        <div class="lang-option" onclick="changeLanguage('zh')"><img src="img/china.png"> CN</div>
+                        <div class="lang-option" onclick="changeLanguage('ar')"><img src="img/arab.png"> AR</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 data-i18n="about_story_title">Our Story</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text scroll-reveal">
+                    <h3 data-i18n="about_story_sub">From Bean to Cup</h3>
+                    <p data-i18n="about_story_p1">Universal Java Coffee is a modern coffee brand rooted in the rich landscapes and traditions of Indonesian coffee. Born from volcanic soil and shaped by generations of craftsmanship, our coffee carries the depth, warmth, and character that make Indonesian beans truly exceptional.</p>
+                    <p data-i18n="about_story_p2">We carefully select high-quality Indonesian coffee beans and craft each cup with precision and respect — honoring tradition while embracing modern brewing techniques. From bold, earthy flavors to smooth, comforting finishes, every sip is designed to awaken the senses and slow the moment.</p>                    
+                    
+                    <div class="philosophy">
+                        <h4 data-i18n="about_phil_title">Our Philosophy</h4>
+                        <p data-i18n="about_phil_desc">Rooted in Indonesian heritage, we craft coffee with respect, balance, and intention — creating moments meant to be felt.</p>
+                    </div>
+                </div>
+
+                <!-- Founder Card -->
+                <div class="founder-card scroll-reveal">
+                    <div class="founder-img-wrapper">
+                        <img src="img/founder.jpg" alt="Founder" class="founder-img">
+                    </div>
+                    <div class="founder-info">
+                        <h4>Alex</h4>
+                        <p class="role" data-i18n="founder_role">Founder</p>
+                        <p class="bio" data-i18n="founder_quote">"Coffee isn't just a drink; it's a ritual. I created Universal Java Coffee to share that daily moment of peace with you."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="section-padding mission-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 data-i18n="mission_title">Our Mission</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="mission-grid">
+                <div class="mission-card scroll-reveal">
+                    <div class="mission-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                    <h4 data-i18n="mis_1_title">Uncompromising Quality</h4>
+                    <p data-i18n="mis_1_desc">We source only the finest Indonesian beans, roasting them to perfection to ensure every cup is a masterpiece of flavor.</p>
+                </div>
+                <div class="mission-card scroll-reveal">
+                    <div class="mission-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h4 data-i18n="mis_2_title">Ethical Sourcing</h4>
+                    <p data-i18n="mis_2_desc">We believe in fair trade and direct partnerships, ensuring our farmers are respected and compensated fairly for their craft.</p>
+                </div>
+                <div class="mission-card scroll-reveal">
+                    <div class="mission-icon"><i class="fa-solid fa-users"></i></div>
+                    <h4 data-i18n="mis_3_title">Customer Experience</h4>
+                    <p data-i18n="mis_3_desc">Creating a warm, welcoming community where every sip is a moment of peace, connection, and simple joy.</p>
+                </div>
+                <div class="mission-card scroll-reveal">
+                    <div class="mission-icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h4 data-i18n="mis_4_title">Sustainability</h4>
+                    <p data-i18n="mis_4_desc">We are dedicated to protecting our planet through eco-friendly farming, sustainable packaging, and waste reduction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section-padding vision-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 data-i18n="vision_title">Our Vision</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="vision-grid">
+                <div class="vision-card scroll-reveal">
+                    <h4 data-i18n="vis_1_title">Global Recognition</h4>
+                    <p data-i18n="vis_1_desc">Becoming a recognized coffee brand that represents the pinnacle of Indonesian coffee culture on the world stage.</p>
+                </div>
+                <div class="vision-card scroll-reveal">
+                    <h4 data-i18n="vis_2_title">Brewing Innovation</h4>
+                    <p data-i18n="vis_2_desc">Continuously exploring new techniques and technologies to refine the brewing process and unlock new flavor dimensions.</p>
+                </div>
+                <div class="vision-card scroll-reveal">
+                    <h4 data-i18n="vis_3_title">Eco-Conscious Future</h4>
+                    <p data-i18n="vis_3_desc">Leading the way in environmental responsibility by adopting sustainable practices that protect our planet and communities.</p>
+                </div>
+                <div class="vision-card scroll-reveal">
+                    <h4 data-i18n="vis_4_title">Meaningful Experiences</h4>
+                    <p data-i18n="vis_4_desc">Creating café spaces that are more than just stops—they are destinations for connection, inspiration, and peace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2026 Universal Java Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+62895613454351" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

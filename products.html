@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Universal Java Coffee</title>
+    <meta name="description" content="Explore our selection of premium Indonesian coffee including Gayo Arabica, Toraja, Robusta, and Green Coffee Beans available for export.">
+    <meta name="keywords" content="buy green coffee, roasted coffee beans, Gayo Arabica, Toraja coffee, Robusta beans">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Our Products | Universal Java Coffee">
+    <meta property="og:description" content="Premium Arabica and Robusta beans sourced from the best regions in Indonesia.">
+    <meta property="og:image" content="img/blend coffee.avif">
+    
+    <link rel="canonical" href="https://www.universaljavacoffee.com/products.html">
+    <link rel="icon" href="img/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Our Coffee Selection",
+      "description": "Premium Indonesian Arabica and Robusta Coffee Beans"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Universal Java Coffee"></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="products.html" class="nav-link" data-i18n="nav_products">Products</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-dropdown-container">
+                    <div class="current-lang-display">
+                        <img src="img/usa.png" id="current-lang-flag" alt="Language">
+                        <span id="current-lang-text">EN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" onclick="changeLanguage('en')"><img src="img/usa.png"> EN</div>
+                        <div class="lang-option" onclick="changeLanguage('id')"><img src="img/indonesia.png"> ID</div>
+                        <div class="lang-option" onclick="changeLanguage('zh')"><img src="img/china.png"> CN</div>
+                        <div class="lang-option" onclick="changeLanguage('ar')"><img src="img/arab.png"> AR</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section id="products" class="section-padding bg-cream">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 data-i18n="prod_selection">Our Selection</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card scroll-reveal" data-id="robusta">
+                    <div class="card-img">
+                        <img src="img/overview 3.jpeg" alt="Robusta">
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="prod_robusta">Premium Robusta</h3>
+                        <button class="btn-link view-details" data-i18n="btn_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card scroll-reveal" data-id="arabica">
+                    <div class="card-img">
+                        <img src="img/overview8.jpeg" alt="Arabica Beans">
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="prod_arabica">Premium Arabica</h3>
+                        <button class="btn-link view-details" data-i18n="btn_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card scroll-reveal" data-id="blend">
+                    <div class="card-img">
+                        <img src="img/overview 2.jpeg" alt="House Blend">
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="prod_blend">Signature Blend</h3>
+                        <button class="btn-link view-details" data-i18n="btn_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card scroll-reveal" data-id="green">
+                    <div class="card-img">
+                        <img src="img/overview 6.jpeg" alt="Green Coffee">
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="prod_green">Green Coffee</h3>
+                        <button class="btn-link view-details" data-i18n="btn_details">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2026 Universal Java Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+62895613454351" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

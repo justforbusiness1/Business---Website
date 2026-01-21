@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Universal Java Coffee</title>
+    <meta name="description" content="Detailed information about our premium coffee products. Origin, flavor profile, and brewing recommendations.">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://www.universaljavacoffee.com/sproduct.html">
+    <link rel="icon" href="img/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Specific styles for Single Product Page */
+        .single-product-container {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .single-pro-image {
+            width: 45%;
+        }
+        .single-pro-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .single-pro-details {
+            width: 50%;
+        }
+        .single-pro-details h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #4a3b32;
+        }
+        .single-pro-details h4 {
+            font-size: 1.2rem;
+            color: #8b5e3c;
+            margin-bottom: 20px;
+        }
+        .single-pro-details p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .single-product-container {
+                flex-direction: column;
+            }
+            .single-pro-image, .single-pro-details {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Universal Java Coffee"></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="products.html" class="nav-link" data-i18n="nav_products">Products</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-dropdown-container">
+                    <div class="current-lang-display">
+                        <img src="img/usa.png" id="current-lang-flag" alt="Language">
+                        <span id="current-lang-text">EN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" onclick="changeLanguage('en')"><img src="img/usa.png"> EN</div>
+                        <div class="lang-option" onclick="changeLanguage('id')"><img src="img/indonesia.png"> ID</div>
+                        <div class="lang-option" onclick="changeLanguage('zh')"><img src="img/china.png"> CN</div>
+                        <div class="lang-option" onclick="changeLanguage('ar')"><img src="img/arab.png"> AR</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Details Section -->
+    <section id="prodetails" class="section-padding">
+        <div class="container single-product-container">
+            <div class="single-pro-image">
+                <img src="" width="100%" id="MainImg" alt="Product Image">
+            </div>
+            <div class="single-pro-details">
+                <h2 id="product-name">sproduct</h2>
+                <h4 id="product-flavor"></h4>
+                <p id="product-desc"></p>
+                <div class="specs">
+                    <p><strong data-i18n="label_origin">Origin:</strong> <span id="product-origin"></span></p>
+                    <p><strong data-i18n="label_brew">Brew Style:</strong> <span id="product-brew"></span></p>
+                </div>
+                <a href="products.html" class="btn btn-primary" style="margin-top: 20px; display: inline-block;" data-i18n="btn_back">Back to Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2026 Universal Java Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+62895613454351" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

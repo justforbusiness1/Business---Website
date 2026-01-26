@@ -76,8 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
             prod_green: "Green Coffee",
             btn_details: "View Details",
             btn_back: "Back to Menu",
-            label_origin: "Origin:",
-            label_brew: "Brew Style:",
             // FAQ
             faq_subtitle: "FAQ – MOST ASKED",
             faq_title: "Frequently Asked Questions",
@@ -95,11 +93,16 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_hero_desc: "We are dedicated to sourcing the finest beans from the archipelago. Let's discuss how we can support your business with premium quality and reliable logistics.",
             contact_btn_hero: "Contact",
             info_phone: "Phone",
+            form_title: "Get In Touch",
             info_email: "Email",
             form_name: "Name",
+            form_ph_name: "Your name and company name",
             form_email: "Email",
             form_message: "Message",
-            form_send: "Send Message"
+            form_send: "Send Message",
+            form_sending: "Sending...",
+            form_success: "Thank you, your message has been sent successfully.",
+            form_error: "Oops! There was a problem submitting your form. Please try again."
         },
         id: {
             meta_title: "Universal Java Coffee | Eksportir Kopi Indonesia Premium",
@@ -175,8 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
             prod_green: "Kopi Hijau",
             btn_details: "Lihat Detail",
             btn_back: "Kembali ke Menu",
-            label_origin: "Asal:",
-            label_brew: "Gaya Seduh:",
             // FAQ
             faq_subtitle: "FAQ – PALING SERING DITANYAKAN",
             faq_title: "Pertanyaan yang Sering Diajukan",
@@ -194,11 +195,16 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_hero_desc: "Kami berdedikasi untuk mencari biji kopi terbaik dari nusantara. Mari diskusikan bagaimana kami dapat mendukung bisnis Anda dengan kualitas premium dan logistik yang andal.",
             contact_btn_hero: "Hubungi",
             info_phone: "Telepon",
+            form_title: "Hubungi Kami",
             info_email: "Email",
             form_name: "Nama",
+            form_ph_name: "Nama Anda dan nama perusahaan",
             form_email: "Email",
             form_message: "Pesan",
-            form_send: "Kirim Pesan"
+            form_send: "Kirim Pesan",
+            form_sending: "Mengirim...",
+            form_success: "Terima kasih, pesan Anda telah berhasil terkirim.",
+            form_error: "Oops! Terjadi masalah saat mengirim formulir Anda. Silakan coba lagi."
         },
         zh: {
             meta_title: "Universal Java Coffee | 优质印尼咖啡出口商",
@@ -274,8 +280,6 @@ document.addEventListener('DOMContentLoaded', () => {
             prod_green: "生咖啡",
             btn_details: "查看详情",
             btn_back: "返回菜单",
-            label_origin: "产地：",
-            label_brew: "冲泡风格：",
             faq_subtitle: "常见问题 – 最常问",
             faq_title: "常见问题解答",
             faq_desc: "对我们的采购、分级或出口流程感到好奇？我们在每一步都提供透明度，确保您获得最好的印尼咖啡豆，并附带清晰的文件和可靠的运输。",
@@ -291,11 +295,16 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_hero_desc: "我们致力于从群岛采购最好的咖啡豆。让我们讨论如何以优质的质量和可靠的物流支持您的业务。",
             contact_btn_hero: "联系",
             info_phone: "电话",
+            form_title: "联系我们",
             info_email: "电子邮件",
             form_name: "姓名",
+            form_ph_name: "您的姓名和公司名称",
             form_email: "电子邮件",
             form_message: "留言",
-            form_send: "发送留言"
+            form_send: "发送留言",
+            form_sending: "发送中...",
+            form_success: "谢谢，您的留言已成功发送。",
+            form_error: "糟糕！提交您的表单时出现问题。请再试一次。"
         },
         ar: {
             meta_title: "Universal Java Coffee | مصدر القهوة الإندونيسية الفاخرة",
@@ -371,8 +380,6 @@ document.addEventListener('DOMContentLoaded', () => {
             prod_green: "قهوة خضراء",
             btn_details: "عرض التفاصيل",
             btn_back: "العودة للقائمة",
-            label_origin: "الأصل:",
-            label_brew: "أسلوب التحضير:",
             faq_subtitle: "الأسئلة الشائعة - الأكثر طرحًا",
             faq_title: "الأسئلة المتكررة",
             faq_desc: "هل تشعر بالفضول بشأن عملية التوريد أو التصنيف أو التصدير لدينا؟ نحن نقدم الشفافية في كل خطوة، مما يضمن حصولك على أجود الحبوب الإندونيسية مع وثائق واضحة وشحن موثوق.",
@@ -388,11 +395,16 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_hero_desc: "نحن ملتزمون بتوريد أجود الحبوب من الأرخبيل. دعنا نناقش كيف يمكننا دعم عملك بجودة ممتازة ولوجستيات موثوقة.",
             contact_btn_hero: "اتصل",
             info_phone: "هاتف",
+            form_title: "تواصل معنا",
             info_email: "بريد إلكتروني",
             form_name: "الاسم",
+            form_ph_name: "اسمك واسم الشركة",
             form_email: "البريد الإلكتروني",
             form_message: "الرسالة",
-            form_send: "إرسال الرسالة"
+            form_send: "إرسال الرسالة",
+            form_sending: "جار الإرسال...",
+            form_success: "شكرًا لك، لقد تم إرسال رسالتك بنجاح.",
+            form_error: "عفوًا! حدثت مشكلة أثناء إرسال النموذج الخاص بك. يرجى المحاولة مرة أخرى."
         }
     };
 
@@ -444,6 +456,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const key = el.getAttribute('data-i18n');
             if (translations[currentLang][key]) {
                 el.textContent = translations[currentLang][key];
+            }
+        });
+
+        // Update placeholders
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            if (translations[currentLang][key]) {
+                el.placeholder = translations[currentLang][key];
             }
         });
 
@@ -578,125 +598,629 @@ document.addEventListener('DOMContentLoaded', () => {
     const productData = {
         'robusta': {
             en: {
-                title: 'Premium Robusta',
-                desc: 'A perfect balance of espresso, steamed milk, and foam. Robusta is a timeless classic, crafted with rich espresso and perfectly textured milk foam. Balanced and smooth, it delivers a comforting warmth with every sip — ideal for those who appreciate tradition with refined execution.',
+                title: 'Indonesian Robusta Coffee',
+                desc: `Indonesian Robusta coffee is globally recognized for its full-bodied character and bold flavor profile. Grown at lower altitudes and containing a higher caffeine level than Arabica, Robusta is the preferred choice for those seeking a strong, intense coffee experience—or as a solid base for modern milk-based coffee beverages.<br><br>
+<strong>General Characteristics of Our Robusta</strong><br>
+<strong>Body:</strong> Thick, bold, and powerful on the palate.<br>
+<strong>Aroma:</strong> Chocolatey, nutty notes, sometimes complemented by distinctive earthy tones.<br>
+<strong>Flavor:</strong> Dominated by dark chocolate flavors with very low to almost no acidity.<br>
+<strong>Aftertaste:</strong> Clean, long-lasting finish with lingering caramel sweetness.<br><br>
+<strong>Robusta Variant List</strong><br>
+Below is our selection of premium Robusta coffees sourced from Indonesia’s main coffee-producing regions:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Sumatra & Western Regions</th>
+            <th>Java & Central Regions</th>
+            <th>Eastern & Specialty</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Aceh</td><td>Java</td><td>Bali / Bali Fine</td></tr>
+        <tr><td>Bengkulu</td><td>Jember</td><td>Flores</td></tr>
+        <tr><td>Lampung</td><td>Kudus</td><td>Papua</td></tr>
+        <tr><td>Medan</td><td>Malang</td><td>Sulawesi</td></tr>
+        <tr><td>Pagar Alam</td><td>Magelang</td><td>Toraja</td></tr>
+        <tr><td>Semendo</td><td>Sumedang</td><td>Excelsa Ijen</td></tr>
+        <tr><td>Sidikalang</td><td>Temanggung</td><td>Liberica Jambi</td></tr>
+        <tr><td>Sumatra / Samosir</td><td>Kali Putih</td><td>Vietnam (Import Quality)</td></tr>
+    </tbody>
+</table>`,
                 flavor: 'Creamy, Nutty, Sweet',
-                origin: 'Sumatra & Java',
-                brew: 'Espresso Machine, Steamed milk with velvety foam'
             },
             id: {
                 title: 'Robusta Premium',
-                desc: 'Keseimbangan sempurna espresso, susu kukus, dan busa. Robusta adalah klasik abadi, dibuat dengan espresso kaya dan busa susu bertekstur sempurna. Seimbang dan halus, memberikan kehangatan yang menenangkan di setiap tegukan — ideal bagi mereka yang menghargai tradisi dengan eksekusi yang halus.',
+                desc: `Kopi Robusta Indonesia dikenal dunia karena karakter tubuhnya yang tebal (full body) dan profil rasa yang kuat. Biji kopi ini tumbuh di dataran yang lebih rendah dan memiliki kadar kafein yang lebih tinggi dibandingkan Arabica, menjadikannya pilihan utama bagi mereka yang mencari sensasi kopi yang "nendang" atau sebagai bahan dasar campuran kopi susu kekinian.<br><br>
+<strong>Karakter Umum Robusta Kami:</strong><br>
+<strong>Body:</strong> Tebal dan mantap di mulut.<br>
+<strong>Aroma:</strong> Cokelat, kacang-kacangan (nutty), dan terkadang muncul sentuhan aroma tanah yang khas (earthy).<br>
+<strong>Flavor:</strong> Dominasi rasa cokelat hitam (dark chocolate) dengan tingkat keasaman yang sangat rendah atau hampir tidak ada.<br>
+<strong>Aftertaste:</strong> Bersih dengan rasa manis karamel yang tertinggal lama.<br><br>
+<strong>DAFTAR VARIAN ROBUSTA</strong><br>
+Berikut adalah koleksi Robusta terbaik kami yang berasal dari berbagai daerah penghasil kopi utama di Indonesia:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Sumatera & Barat</th>
+            <th>Jawa & Tengah</th>
+            <th>Timur & Spesial</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Aceh</td><td>Jawa</td><td>Bali / Bali Fine</td></tr>
+        <tr><td>Bengkulu</td><td>Jember</td><td>Flores</td></tr>
+        <tr><td>Lampung</td><td>Kudus</td><td>Papua</td></tr>
+        <tr><td>Medan</td><td>Malang</td><td>Sulawesi</td></tr>
+        <tr><td>Pagar Alam</td><td>Magelang</td><td>Toraja</td></tr>
+        <tr><td>Semendo</td><td>Sumedang</td><td>Excelsa Ijen</td></tr>
+        <tr><td>Sidikalang</td><td>Temanggung</td><td>Liberca Jambi</td></tr>
+        <tr><td>Sumatra / Samosir</td><td>Kali Putih</td><td>Vietnam (Import Quality)</td></tr>
+    </tbody>
+</table>`,
                 flavor: 'Creamy, Kacang, Manis',
-                origin: 'Sumatera & Jawa',
-                brew: 'Mesin Espresso, Susu kukus dengan busa lembut'
             },
             zh: {
                 title: '优质罗布斯塔',
-                desc: '浓缩咖啡、蒸奶和奶泡的完美平衡。罗布斯塔是永恒的经典，由浓郁的浓缩咖啡和质地完美的奶泡制成。平衡而顺滑，每一口都带来舒适的温暖——非常适合那些欣赏传统和精致工艺的人。',
+                desc: `印尼罗布斯塔咖啡以其醇厚的口感和大胆的风味特征而闻名全球。生长在较低海拔，咖啡因含量高于阿拉比卡，是寻求强烈、浓郁咖啡体验的人的首选——或者是现代牛奶咖啡饮料的坚实基底。<br><br>
+<strong>我们罗布斯塔的一般特征</strong><br>
+<strong>醇度：</strong> 厚实、大胆、口感强劲。<br>
+<strong>香气：</strong> 巧克力味、坚果味，有时伴有独特的泥土气息。<br>
+<strong>风味：</strong> 以黑巧克力风味为主，酸度极低甚至没有。<br>
+<strong>余韵：</strong> 干净、持久，带有焦糖的甜味。<br><br>
+<strong>罗布斯塔品种列表</strong><br>
+以下是我们精选的来自印尼主要咖啡产区的优质罗布斯塔咖啡：
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>苏门答腊 & 西部</th>
+            <th>爪哇 & 中部</th>
+            <th>东部 & 特色</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>亚齐 (Aceh)</td><td>爪哇 (Java)</td><td>巴厘岛 (Bali / Bali Fine)</td></tr>
+        <tr><td>明古鲁 (Bengkulu)</td><td>任抹 (Jember)</td><td>弗洛勒斯 (Flores)</td></tr>
+        <tr><td>楠榜 (Lampung)</td><td>古突士 (Kudus)</td><td>巴布亚 (Papua)</td></tr>
+        <tr><td>棉兰 (Medan)</td><td>玛朗 (Malang)</td><td>苏拉威西 (Sulawesi)</td></tr>
+        <tr><td>帕加尔阿拉姆 (Pagar Alam)</td><td>马格朗 (Magelang)</td><td>托拉雅 (Toraja)</td></tr>
+        <tr><td>塞门多 (Semendo)</td><td>苏梅当 (Sumedang)</td><td>Excelsa Ijen</td></tr>
+        <tr><td>西迪卡兰 (Sidikalang)</td><td>特曼古 (Temanggung)</td><td>Liberica Jambi</td></tr>
+        <tr><td>苏门答腊 / 沙摩西 (Samosir)</td><td>Kali Putih</td><td>越南 (进口品质)</td></tr>
+    </tbody>
+</table>`,
                 flavor: '奶油味，坚果味，甜味',
-                origin: '苏门答腊和爪哇',
-                brew: '意式浓缩咖啡机，带天鹅绒般泡沫的蒸奶'
             },
             ar: {
                 title: 'روبوستا فاخرة',
-                desc: 'توازن مثالي بين الإسبريسو والحليب المبخر والرغوة. روبوستا هي كلاسيكية خالدة، مصنوعة من الإسبريسو الغني ورغوة الحليب ذات القوام المثالي. متوازنة وسلسة، توفر دفئًا مريحًا مع كل رشفة - مثالية لأولئك الذين يقدرون التقاليد مع التنفيذ المتقن.',
+                desc: `تشتهر قهوة روبوستا الإندونيسية عالميًا بقوامها الممتلئ ونكهتها الجريئة. تُزرع على ارتفاعات منخفضة وتحتوي على نسبة كافيين أعلى من أرابيكا، وتعد الخيار المفضل لمن يبحثون عن تجربة قهوة قوية ومكثفة - أو كقاعدة صلبة لمشروبات القهوة الحديثة بالحليب.<br><br>
+<strong>الخصائص العامة لروبوستا لدينا</strong><br>
+<strong>القوام:</strong> سميك، جريء، وقوي في الفم.<br>
+<strong>الرائحة:</strong> نوتات الشوكولاتة والمكسرات، تكتمل أحيانًا بنغمات ترابية مميزة.<br>
+<strong>النكهة:</strong> تسيطر عليها نكهات الشوكولاتة الداكنة مع حموضة منخفضة جدًا أو معدومة تقريبًا.<br>
+<strong>المذاق اللاحق:</strong> نهاية نظيفة وطويلة الأمد مع حلاوة الكراميل المتبقية.<br><br>
+<strong>قائمة أصناف روبوستا</strong><br>
+فيما يلي مجموعتنا المختارة من قهوة روبوستا الفاخرة التي يتم الحصول عليها من مناطق إنتاج القهوة الرئيسية في إندونيسيا:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>سومطرة والمناطق الغربية</th>
+            <th>جاوة والمناطق الوسطى</th>
+            <th>المناطق الشرقية والمختصة</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>آتشيه (Aceh)</td><td>جاوة (Java)</td><td>بالي (Bali / Bali Fine)</td></tr>
+        <tr><td>بنغكولو (Bengkulu)</td><td>جمبر (Jember)</td><td>فلوريس (Flores)</td></tr>
+        <tr><td>لامبونج (Lampung)</td><td>كودوس (Kudus)</td><td>بابوا (Papua)</td></tr>
+        <tr><td>ميدان (Medan)</td><td>مالانج (Malang)</td><td>سولاويزي (Sulawesi)</td></tr>
+        <tr><td>باجار عالم (Pagar Alam)</td><td>ماجيلانج (Magelang)</td><td>توراجا (Toraja)</td></tr>
+        <tr><td>سيميندو (Semendo)</td><td>سوميدانج (Sumedang)</td><td>إكسيلسا إيجين (Excelsa Ijen)</td></tr>
+        <tr><td>سيديكالانج (Sidikalang)</td><td>تيمانجونج (Temanggung)</td><td>ليبيريكا جامبي (Liberica Jambi)</td></tr>
+        <tr><td>سومطرة / ساموسير (Samosir)</td><td>كالي بوتيه (Kali Putih)</td><td>فيتنام (جودة استيراد)</td></tr>
+    </tbody>
+</table>`,
                 flavor: 'كريمي، مكسرات، حلو',
-                origin: 'سومطرة وجاوة',
-                brew: 'آلة إسبريسو، حليب مبخر برغوة مخملية'
             },
             img: 'img/overview 3.jpeg'
         },
         'arabica': {
             en: {
                 title: 'Premium Arabica',
-                desc: 'Arabica coffee highlights purity and complexity, offering a clean and aromatic cup that reflects the character of its origin. Smooth, elegant, and naturally sweet — this is coffee in its most refined form.',
+                desc: `<strong>1. Full Wash Process</strong><br>
+<strong>Description</strong><br>
+A process in which coffee cherries are pulped and fermented in water to completely remove the mucilage before drying.<br>
+<strong>Flavor Profile</strong><br>
+Produces a very clean cup, bright acidity, and highlights the original characteristics of its growing region.<br>
+<strong>Arabica Full Wash Product List</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Gayo</td><td>Mekarwangi</td><td>Arjuno</td></tr>
+        <tr><td>Papandayan</td><td>Bali Premium</td><td>Papua</td></tr>
+        <tr><td>Batang</td><td>Papua Wamena</td><td>Blue Batak</td></tr>
+        <tr><td>Puntang</td><td>Cikuray</td><td>Preanger</td></tr>
+        <tr><td>Ciuhurip</td><td>Samosir</td><td>Ciwidey</td></tr>
+        <tr><td>Semeru</td><td>Enrekang</td><td>Somendo</td></tr>
+        <tr><td>Flores Manggarai</td><td>Temanggung</td><td>Flores Bajawa</td></tr>
+        <tr><td>Timor Timur</td><td>Garut Nanas</td><td>Toraja Kalosi</td></tr>
+        <tr><td>Garut Yellow Bourbon</td><td>Gunung Tilu</td><td>Garut Yellow Caturra</td></tr>
+        <tr><td>Kerinci</td><td>Gayo Premium</td><td>Kintamani</td></tr>
+        <tr><td>Gunung Halu</td><td>Malabar</td><td>Gunung Lawu</td></tr>
+        <tr><td>Linggar Jati</td><td>Mandailing</td><td>Mandailing Specialty</td></tr>
+    </tbody>
+</table><br>
+
+<strong>2. Semi Wash Process (Wet-Hulled)</strong><br>
+<strong>Description</strong><br>
+A traditional Indonesian process where the outer skin is removed, and the coffee is partially dried before the parchment layer is hulled.<br>
+<strong>Flavor Profile</strong><br>
+Full-bodied with low acidity, often featuring spicy and earthy notes.<br>
+<strong>Arabica Semi Wash Product List</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Long Berry</td><td>Aceh Pea Berry</td><td>Lintong</td></tr>
+        <tr><td>Sidikalang</td><td>Gayo Special</td><td>Toraja Mamasa</td></tr>
+    </tbody>
+</table><br>
+
+<strong>3. Honey Process</strong><br>
+<strong>Description</strong><br>
+The outer skin is removed while some of the sweet mucilage remains attached to the beans during the drying process.<br>
+<strong>Flavor Profile</strong><br>
+Soft honey-like sweetness, creamy body, and balanced acidity.<br>
+<strong>Arabica Honey Product List</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Bali Kintamani</td><td>Ethiopia</td><td>Bondowoso</td></tr>
+        <tr><td>Garut</td><td>Brazil</td><td>Gayo</td></tr>
+        <tr><td>Burundi</td><td>Kenya</td><td>Colombia</td></tr>
+        <tr><td>Kilimanjaro</td><td>Puntang Black</td><td></td></tr>
+    </tbody>
+</table><br>
+
+<strong>4. Natural Process</strong><br>
+<strong>Description</strong><br>
+Coffee cherries are dried whole with the skin and pulp intact under natural sunlight.<br>
+<strong>Flavor Profile</strong><br>
+Intense fruity notes, berry-like sweetness, and a highly complex flavor profile.<br>
+<strong>Arabica Natural Product List</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Bali Natural</td><td>Flores Bajawa</td><td>Gayo Natural</td></tr>
+        <tr><td>Gunung Patuha</td><td>Java Carlos</td><td>Red Natural</td></tr>
+    </tbody>
+</table><br>
+
+<strong>5. Anaerobic & Wine Process</strong><br>
+<strong>Description</strong><br>
+Fermentation is carried out in airtight containers (without oxygen) to create highly aromatic and distinctive flavor profiles.<br>
+<strong>Flavor Profile</strong><br>
+Wine-like character with strong exotic fruit notes and intense aromatics.<br>
+<strong>Arabica Specialty Product List</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Exotis Jagong Jeget (Anaerobic)</td><td>Gunung Puntang (Wine)</td></tr>
+        <tr><td>Gayo (Wine)</td><td>Garut (Wine)</td></tr>
+    </tbody>
+</table>`,
                 flavor: 'Floral, Fruity, Berry',
-                origin: 'Gayo (Aceh), Toraja, and Bali Kintamani',
-                brew: 'Pour Over / V60, Drip coffee'
             },
             id: {
                 title: 'Arabika Premium',
                 desc: 'Kopi Arabika menonjolkan kemurnian dan kompleksitas, menawarkan cangkir yang bersih dan aromatik yang mencerminkan karakter asalnya. Halus, elegan, dan manis alami — ini adalah kopi dalam bentuk paling murni.',
                 flavor: 'Floral, Buah, Berry',
-                origin: 'Gayo (Aceh), Toraja, dan Bali Kintamani',
-                brew: 'Pour Over / V60, Kopi Tetes'
             },
             zh: {
                 title: '优质阿拉比卡',
-                desc: '阿拉比卡咖啡突出了纯度和复杂性，提供干净而芳香的口感，反映了其原产地的特征。顺滑、优雅且自然甘甜——这是咖啡最精致的形式。',
+                desc: `<strong>1. 全水洗处理 (Full Wash)</strong><br>
+<strong>描述</strong><br>
+将咖啡樱桃去皮并在水中发酵以完全去除果胶，然后干燥。<br>
+<strong>风味特征</strong><br>
+口感非常干净，酸度明亮，突出了产地的原始特征。<br>
+<strong>阿拉比卡全水洗产品列表</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Gayo</td><td>Mekarwangi</td><td>Arjuno</td></tr>
+        <tr><td>Papandayan</td><td>Bali Premium</td><td>Papua</td></tr>
+        <tr><td>Batang</td><td>Papua Wamena</td><td>Blue Batak</td></tr>
+        <tr><td>Puntang</td><td>Cikuray</td><td>Preanger</td></tr>
+        <tr><td>Ciuhurip</td><td>Samosir</td><td>Ciwidey</td></tr>
+        <tr><td>Semeru</td><td>Enrekang</td><td>Somendo</td></tr>
+        <tr><td>Flores Manggarai</td><td>Temanggung</td><td>Flores Bajawa</td></tr>
+        <tr><td>Timor Timur</td><td>Garut Nanas</td><td>Toraja Kalosi</td></tr>
+        <tr><td>Garut Yellow Bourbon</td><td>Gunung Tilu</td><td>Garut Yellow Caturra</td></tr>
+        <tr><td>Kerinci</td><td>Gayo Premium</td><td>Kintamani</td></tr>
+        <tr><td>Gunung Halu</td><td>Malabar</td><td>Gunung Lawu</td></tr>
+        <tr><td>Linggar Jati</td><td>Mandailing</td><td>Mandailing Specialty</td></tr>
+    </tbody>
+</table><br>
+
+<strong>2. 半水洗 / 湿刨法 (Semi Wash / Wet-Hulled)</strong><br>
+<strong>描述</strong><br>
+一种传统的印尼工艺，去除外皮，咖啡在部分干燥后去壳。<br>
+<strong>风味特征</strong><br>
+醇度厚实，酸度低，通常带有辛辣和泥土气息。<br>
+
+<strong>3. 蜜处理 (Honey Process)</strong><br>
+<strong>描述</strong><br>
+去除外皮，但在干燥过程中保留部分甜味果胶。<br>
+<strong>风味特征</strong><br>
+柔和的蜂蜜般甜味，奶油般口感，酸度平衡。<br>
+
+<strong>4. 日晒处理 (Natural Process)</strong><br>
+<strong>描述</strong><br>
+咖啡樱桃在自然阳光下带皮干燥。<br>
+<strong>风味特征</strong><br>
+强烈的果香，浆果般的甜味，风味极其复杂。<br>
+
+<strong>5. 厌氧 & 红酒处理 (Anaerobic & Wine Process)</strong><br>
+<strong>描述</strong><br>
+在密闭容器（无氧）中发酵，创造出高度芳香和独特的风味。<br>
+<strong>风味特征</strong><br>
+具有红酒般的特征，带有强烈的异国水果味和浓郁香气。`,
                 flavor: '花香，果香，浆果味',
-                origin: 'Gayo (亚齐), Toraja, 和巴厘岛 Kintamani',
-                brew: '手冲 / V60, 滴滤咖啡'
             },
             ar: {
                 title: 'أرابيكا فاخرة',
-                desc: 'تبرز قهوة أرابيكا النقاء والتعقيد، وتقدم كوبًا نظيفًا وعطريًا يعكس طابع أصلها. سلسة وأنيقة وحلوة بشكل طبيعي - هذه هي القهوة في أرقى صورها.',
+                desc: `<strong>1. عملية الغسيل الكامل (Full Wash)</strong><br>
+<strong>الوصف</strong><br>
+عملية يتم فيها نزع لب كرز القهوة وتخميره في الماء لإزالة الصمغ تمامًا قبل التجفيف.<br>
+<strong>ملف النكهة</strong><br>
+ينتج كوبًا نظيفًا للغاية، وحموضة مشرقة، ويبرز الخصائص الأصلية لمنطقة زراعته.<br>
+<strong>قائمة منتجات أرابيكا غسيل كامل</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Gayo</td><td>Mekarwangi</td><td>Arjuno</td></tr>
+        <tr><td>Papandayan</td><td>Bali Premium</td><td>Papua</td></tr>
+        <tr><td>Batang</td><td>Papua Wamena</td><td>Blue Batak</td></tr>
+        <tr><td>Puntang</td><td>Cikuray</td><td>Preanger</td></tr>
+        <tr><td>Ciuhurip</td><td>Samosir</td><td>Ciwidey</td></tr>
+        <tr><td>Semeru</td><td>Enrekang</td><td>Somendo</td></tr>
+        <tr><td>Flores Manggarai</td><td>Temanggung</td><td>Flores Bajawa</td></tr>
+        <tr><td>Timor Timur</td><td>Garut Nanas</td><td>Toraja Kalosi</td></tr>
+        <tr><td>Garut Yellow Bourbon</td><td>Gunung Tilu</td><td>Garut Yellow Caturra</td></tr>
+        <tr><td>Kerinci</td><td>Gayo Premium</td><td>Kintamani</td></tr>
+        <tr><td>Gunung Halu</td><td>Malabar</td><td>Gunung Lawu</td></tr>
+        <tr><td>Linggar Jati</td><td>Mandailing</td><td>Mandailing Specialty</td></tr>
+    </tbody>
+</table><br>
+
+<strong>2. الغسيل النصفي / التقشير الرطب (Semi Wash)</strong><br>
+<strong>الوصف</strong><br>
+عملية إندونيسية تقليدية حيث يتم إزالة القشرة الخارجية، ويتم تجفيف القهوة جزئيًا قبل تقشير طبقة البرشمان.<br>
+<strong>ملف النكهة</strong><br>
+قوام ممتلئ مع حموضة منخفضة، وغالبًا ما يتميز بنوتات التوابل والترابية.<br>
+
+<strong>3. المعالجة العسلية (Honey Process)</strong><br>
+<strong>الوصف</strong><br>
+تتم إزالة القشرة الخارجية بينما يظل بعض الصمغ الحلو ملتصقًا بالحبوب أثناء عملية التجفيف.<br>
+<strong>ملف النكهة</strong><br>
+حلاوة ناعمة تشبه العسل، وقوام كريمي، وحموضة متوازنة.<br>
+
+<strong>4. المعالجة الطبيعية (Natural Process)</strong><br>
+<strong>الوصف</strong><br>
+يتم تجفيف كرز القهوة كاملاً مع القشرة واللب تحت أشعة الشمس الطبيعية.<br>
+<strong>ملف النكهة</strong><br>
+نوتات فاكهية مكثفة، وحلاوة تشبه التوت، وملف نكهة معقد للغاية.<br>
+
+<strong>5. المعالجة اللاهوائية والنبيذية (Anaerobic & Wine)</strong><br>
+<strong>الوصف</strong><br>
+يتم التخمير في حاويات محكمة الإغلاق (بدون أكسجين) لإنشاء ملفات نكهة عطرية ومميزة للغاية.<br>
+<strong>ملف النكهة</strong><br>
+طابع يشبه النبيذ مع نوتات فواكه استوائية قوية وروائح مكثفة.`,
                 flavor: 'زهري، فاكهي، توت',
-                origin: 'جايو (آتشيه)، توراجا، وبالي كينتاماني',
-                brew: 'سكب / V60، قهوة مقطرة'
             },
             img: 'img/overview8.jpeg'
         },
         'blend': {
             en: {
                 title: 'Signature Blend',
-                desc: 'Signature Blend is the heart of Universal Java Coffee — a carefully balanced fusion designed to create harmony in every cup. Bold yet smooth, it’s crafted to be memorable, comforting, and unmistakably ours.',
+                desc: `<strong>INDONESIAN COFFEE BLENDS: THE PERFECT HARMONY</strong><br>
+Our coffee blends are the art of combining selected coffee beans from various regions of Indonesia to create flavor profiles that are unique, consistent, and perfectly balanced. We carefully unite the aromatic and complex characteristics of Arabica with the bold, full-bodied strength of Robusta—resulting in a perfect cup for every purpose.<br><br>
+<strong>Why Choose Our Blends?</strong><br>
+<strong>Flavor Balance</strong><br>
+Precisely crafted to harmonize acidity, sweetness, and body.<br>
+<strong>Consistency</strong><br>
+Every batch is produced with the same flavor profile to maintain reliable quality standards.<br>
+<strong>Versatility</strong><br>
+Ideal for various brewing methods, from Espresso machines and Moka Pots to modern milk-based coffee beverages.<br><br>
+<strong>House Blend & Mix Variants</strong><br>
+Below is our exclusive collection of signature blends:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Blend Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Specialty Blend</strong></td><td>A premium blend of selected Arabica beans (Blue Mountain & Bali), delivering a luxurious and complex flavor profile.</td></tr>
+        <tr><td><strong>2. House Blend</strong></td><td>A balanced combination of Gayo Arabica and Toraja Robusta, suitable for both black coffee and milk-based drinks.</td></tr>
+        <tr><td><strong>3. Espresso Blend</strong></td><td>A specially formulated blend of Gayo Arabica, Dampit Robusta, and Toraja coffee, producing thick crema and bold flavor.</td></tr>
+        <tr><td><strong>4. Kopi Susu Blend</strong></td><td>Specifically designed to ensure the coffee character remains dominant when combined with milk and palm sugar.</td></tr>
+        <tr><td><strong>5. Classic Blend</strong></td><td>A blend of Kerinci Robusta with Puntang & Majalaya Arabica, offering an authentic traditional coffee experience.</td></tr>
+        <tr><td><strong>6. Italian Roast</strong></td><td>Dark roast profile for an intensely bold taste with very low acidity.</td></tr>
+        <tr><td><strong>7. Jackfruit Blend</strong></td><td>A unique blend featuring exotic jackfruit aroma with natural sweetness.</td></tr>
+        <tr><td><strong>8. Honey Blend</strong></td><td>A blend of Honey-processed coffee beans, highlighting smooth texture and honey-like sweetness.</td></tr>
+    </tbody>
+</table><br>
+<strong>Blend Selection Guide</strong><br>
+<strong>For Black Coffee Lovers</strong><br>
+Choose Arabica-dominant options such as Specialty Blend or Honey Blend.<br>
+<strong>For Coffee Shops / Iced Milk Coffee</strong><br>
+Use Espresso Blend or Kopi Susu Blend for bold flavor and cost efficiency.<br>
+<strong>For Traditional Indonesian Coffee (Kopi Tubruk)</strong><br>
+Classic Blend delivers a familiar aroma and taste loved by local coffee drinkers.`,
                 flavor: 'Dark Chocolate, Caramel',
-                origin: 'Sumatra, Java, Sulawesi, and Bali',
-                brew: 'French Press'
             },
             id: {
                 title: 'Signature Blend',
                 desc: 'Signature Blend adalah jantung dari Universal Java Coffee — perpaduan yang seimbang dirancang untuk menciptakan harmoni di setiap cangkir. Berani namun halus, dibuat untuk dikenang, menenangkan, dan tak tertukar.',
                 flavor: 'Cokelat Hitam, Karamel',
-                origin: 'Sumatera, Jawa, Sulawesi, dan Bali',
-                brew: 'French Press'
             },
             zh: {
                 title: '招牌拼配',
-                desc: '招牌拼配是 Universal Java Coffee 的核心——一种精心平衡的融合，旨在为每一杯创造和谐。大胆而顺滑，旨在令人难忘、舒适且具有我们独特的风格。',
+                desc: `<strong>印尼咖啡拼配：完美的和谐</strong><br>
+我们的咖啡拼配是将来自印尼不同地区的精选咖啡豆结合在一起的艺术，旨在创造独特、一致且完美平衡的风味特征。我们仔细地将阿拉比卡的芳香和复杂特征与罗布斯塔的大胆、醇厚强度结合起来——为每种用途带来完美的咖啡。<br><br>
+<strong>为什么选择我们的拼配？</strong><br>
+<strong>风味平衡</strong><br>
+精确制作，以协调酸度、甜度和醇度。<br>
+<strong>一致性</strong><br>
+每一批次都以相同的风味特征生产，以保持可靠的质量标准。<br>
+<strong>多功能性</strong><br>
+非常适合各种冲泡方法，从意式浓缩咖啡机和摩卡壶到现代牛奶咖啡饮料。<br><br>
+<strong>招牌拼配列表</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>拼配名称</th>
+            <th>描述</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. 精品拼配 (Specialty Blend)</strong></td><td>精选阿拉比卡豆（蓝山 & 巴厘岛）的优质拼配，提供奢华而复杂的风味。</td></tr>
+        <tr><td><strong>2. 招牌拼配 (House Blend)</strong></td><td>Gayo 阿拉比卡和 Toraja 罗布斯塔的平衡组合，适合黑咖啡和牛奶饮品。</td></tr>
+        <tr><td><strong>3. 浓缩拼配 (Espresso Blend)</strong></td><td>Gayo 阿拉比卡、Dampit 罗布斯塔和 Toraja 咖啡的特殊配方，产生厚实的油脂和大胆的风味。</td></tr>
+        <tr><td><strong>4. 牛奶咖啡拼配 (Kopi Susu Blend)</strong></td><td>专为与牛奶和棕榈糖结合时保持咖啡特征主导而设计。</td></tr>
+        <tr><td><strong>5. 经典拼配 (Classic Blend)</strong></td><td>Kerinci 罗布斯塔与 Puntang & Majalaya 阿拉比卡的拼配，提供正宗的传统咖啡体验。</td></tr>
+        <tr><td><strong>6. 意式烘焙 (Italian Roast)</strong></td><td>深烘焙，口感强烈，酸度极低。</td></tr>
+        <tr><td><strong>7. 波罗蜜拼配 (Jackfruit Blend)</strong></td><td>具有异国情调的波罗蜜香气和自然甜味的独特拼配。</td></tr>
+        <tr><td><strong>8. 蜜处理拼配 (Honey Blend)</strong></td><td>蜜处理咖啡豆的拼配，突出口感顺滑和蜂蜜般的甜味。</td></tr>
+    </tbody>
+</table>`,
                 flavor: '黑巧克力，焦糖',
-                origin: '苏门答腊，爪哇，苏拉威西和巴厘岛',
-                brew: '法式压滤壶'
             },
             ar: {
                 title: 'مزيج التوقيع',
-                desc: 'مزيج التوقيع هو قلب Universal Java Coffee - اندماج متوازن بعناية مصمم لخلق الانسجام في كل كوب. جريء ولكنه سلس، تم تصميمه ليكون لا يُنسى ومريحًا ومميزًا لنا.',
+                desc: `<strong>مزيج القهوة الإندونيسية: التناغم المثالي</strong><br>
+خلطات القهوة لدينا هي فن الجمع بين حبوب البن المختارة من مناطق مختلفة في إندونيسيا لإنشاء ملفات نكهة فريدة ومتسقة ومتوازنة تمامًا. نحن نوحد بعناية الخصائص العطرية والمعقدة لأرابيكا مع القوة الجريئة والممتلئة لروبوستا - مما ينتج عنه كوب مثالي لكل غرض.<br><br>
+<strong>لماذا تختار خلطاتنا؟</strong><br>
+<strong>توازن النكهة</strong><br>
+مصنوعة بدقة لتحقيق التناغم بين الحموضة والحلاوة والقوام.<br>
+<strong>الاتساق</strong><br>
+يتم إنتاج كل دفعة بنفس ملف النكهة للحفاظ على معايير جودة موثوقة.<br>
+<strong>تعدد الاستخدامات</strong><br>
+مثالية لطرق التخمير المختلفة، من آلات الإسبريسو وأواني الموكا إلى مشروبات القهوة الحديثة بالحليب.<br><br>
+<strong>قائمة خلطات التوقيع</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>اسم المزيج</th>
+            <th>الوصف</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. مزيج مختص (Specialty Blend)</strong></td><td>مزيج فاخر من حبوب أرابيكا المختارة (بلو ماونتن وبالي)، يقدم ملف نكهة فاخر ومعقد.</td></tr>
+        <tr><td><strong>2. مزيج المنزل (House Blend)</strong></td><td>مزيج متوازن من جايو أرابيكا وتوراجا روبوستا، مناسب لكل من القهوة السوداء والمشروبات القائمة على الحليب.</td></tr>
+        <tr><td><strong>3. مزيج الإسبريسو (Espresso Blend)</strong></td><td>مزيج مركب خصيصًا من جايو أرابيكا، ودامبيت روبوستا، وقهوة توراجا، ينتج كريمة سميكة ونكهة جريئة.</td></tr>
+        <tr><td><strong>4. مزيج كوبي سوسو (Kopi Susu Blend)</strong></td><td>مصمم خصيصًا لضمان بقاء طابع القهوة مهيمنًا عند مزجه بالحليب وسكر النخيل.</td></tr>
+        <tr><td><strong>5. مزيج كلاسيكي (Classic Blend)</strong></td><td>مزيج من كيرينشي روبوستا مع بونتانج وماجالايا أرابيكا، يقدم تجربة قهوة تقليدية أصيلة.</td></tr>
+        <tr><td><strong>6. تحميص إيطالي (Italian Roast)</strong></td><td>تحميص داكن لطعم جريء للغاية مع حموضة منخفضة جدًا.</td></tr>
+        <tr><td><strong>7. مزيج الجاك فروت (Jackfruit Blend)</strong></td><td>مزيج فريد يتميز برائحة الجاك فروت الغريبة مع حلاوة طبيعية.</td></tr>
+        <tr><td><strong>8. مزيج العسل (Honey Blend)</strong></td><td>مزيج من حبوب البن المعالجة بالعسل، يبرز الملمس الناعم والحلاوة التي تشبه العسل.</td></tr>
+    </tbody>
+</table>`,
                 flavor: 'شوكولاتة داكنة، كراميل',
-                origin: 'سومطرة، جاوة، سولاويزي، وبالي',
-                brew: 'فرنش برس'
             },
             img: 'img/overview 2.jpeg'
         },
         'green': {
             en: {
                 title: 'Green Coffee',
-                desc: 'Green Coffee offers a fresh and vibrant profile, showcasing the raw character of unroasted beans. Light, herbal, and energizing, it delivers a unique experience for those seeking something naturally different.',
+                desc: `<strong>GREEN BEANS FROM INDONESIA: THE SOURCE OF EXCELLENCE</strong><br>
+Our green coffee beans are sourced from the finest coffee plantations across the Indonesian archipelago. Carefully selected and strictly quality-controlled, our green beans are ideal for home roasters and professional roasteries looking to explore and develop their own unique roast profiles.<br><br>
+<strong>TECHNICAL & QUALITY SPECIFICATIONS</strong><br>
+To ensure optimal roasting performance, all of our green beans meet the following industry standards:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Quality Parameter</th>
+            <th>Standard Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Grade</td><td>Grade 1 / Specialty Grade (Minimal defects)</td></tr>
+        <tr><td>Moisture Content</td><td>11% – 12.5% (Ideal for storage stability)</td></tr>
+        <tr><td>Density</td><td>High Density (Hard beans, resistant to high heat)</td></tr>
+        <tr><td>Harvest Year</td><td>Current Crop (Latest harvest for maximum freshness)</td></tr>
+        <tr><td>Sorting</td><td>Double / Triple Picked (Manual defect removal)</td></tr>
+    </tbody>
+</table><br>
+<strong>GREEN BEAN COLLECTION</strong><br>
+Our available green bean selections are categorized by processing method and origin:<br><br>
+<strong>1. By Processing Method</strong><br>
+<strong>Full Wash</strong><br>
+Clean cup profile with bright acidity and excellent consistency.<br>
+<strong>Semi Wash (Wet-Hulled)</strong><br>
+Strong body with distinctive Indonesian spicy and earthy notes.<br>
+<strong>Honey Process</strong><br>
+High sweetness with a creamy mouthfeel.<br>
+<strong>Natural Process</strong><br>
+Intense fruity flavors and complex aroma.<br>
+<strong>Anaerobic / Wine Process</strong><br>
+Exotic aromatics with highly distinctive and unique flavor profiles.<br><br>
+<strong>2. By Region (Single Origin)</strong><br>
+<strong>Sumatra</strong><br>
+Aceh Gayo, Mandailing, Lintong, Sidikalang, Lampung, Pagar Alam<br>
+<strong>Java</strong><br>
+Preanger, Garut, Malabar, Temanggung, Ijen, Muria<br>
+<strong>Bali & Nusa Tenggara</strong><br>
+Kintamani, Flores Bajawa<br>
+<strong>Sulawesi</strong><br>
+Toraja Kalosi, Enrekang, Mamasa<br>
+<strong>Papua</strong><br>
+Wamena, Moanemani<br><br>
+<strong>WHY BUY FROM UNIVERSAL JAVA COFFEE</strong><br>
+<strong>Traceability</strong><br>
+100% guaranteed origin authenticity for every coffee bean.<br>
+<strong>Freshness</strong><br>
+Fast stock turnover ensures consistently fresh green beans.<br>
+<strong>Stable Quality</strong><br>
+High sorting standards make it easier for roasters to define and maintain precise roast profiles`,
                 flavor: 'Grassy, Earthy, Fresh',
-                origin: 'Central Java and Bali',
-                brew: 'Light roast infusion, Cold brew'
             },
             id: {
                 title: 'Kopi Hijau',
                 desc: 'Kopi Hijau menawarkan profil segar dan bersemangat, menampilkan karakter mentah biji yang belum dipanggang. Ringan, herbal, dan memberi energi, memberikan pengalaman unik bagi mereka yang mencari sesuatu yang alami berbeda.',
                 flavor: 'Rumput, Tanah, Segar',
-                origin: 'Jawa Tengah dan Bali',
-                brew: 'Infusi sangrai ringan, Cold brew'
             },
             zh: {
                 title: '生咖啡',
-                desc: '生咖啡提供清新而充满活力的风味，展示了未烘焙咖啡豆的原始特征。清淡、草本且充满活力，为寻求自然不同体验的人提供独特的体验。',
+                desc: `<strong>来自印尼的生咖啡豆：卓越之源</strong><br>
+我们的生咖啡豆源自印尼群岛最好的咖啡种植园。经过精心挑选和严格的质量控制，我们的生豆非常适合家庭烘焙师和专业烘焙坊探索和开发自己独特的烘焙曲线。<br><br>
+<strong>技术与质量规格</strong><br>
+为了确保最佳的烘焙性能，我们所有的生豆都符合以下行业标准：
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>质量参数</th>
+            <th>标准描述</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>等级</td><td>一级 / 精品级 (Grade 1 / Specialty - 极少缺陷)</td></tr>
+        <tr><td>含水量</td><td>11% – 12.5% (理想的储存稳定性)</td></tr>
+        <tr><td>密度</td><td>高密度 (硬豆，耐高温)</td></tr>
+        <tr><td>收获年份</td><td>当季作物 (最新收获以确保最大新鲜度)</td></tr>
+        <tr><td>分拣</td><td>双重 / 三重手选 (人工去除缺陷)</td></tr>
+    </tbody>
+</table><br>
+<strong>生豆系列</strong><br>
+我们现有的生豆选择按加工方法和产地分类：<br><br>
+<strong>1. 按加工方法</strong><br>
+<strong>全水洗 (Full Wash):</strong> 干净的口感，明亮的酸度和出色的一致性。<br>
+<strong>湿刨法 (Semi Wash):</strong> 醇度强劲，带有独特的印尼辛辣和泥土气息。<br>
+<strong>蜜处理 (Honey Process):</strong> 高甜度，奶油般口感。<br>
+<strong>日晒 (Natural Process):</strong> 强烈的果味和复杂的香气。<br>
+<strong>厌氧 / 红酒处理:</strong> 异国情调的香气，具有非常独特和鲜明的风味特征。<br><br>
+<strong>2. 按地区 (单一产地)</strong><br>
+<strong>苏门答腊:</strong> Aceh Gayo, Mandailing, Lintong, Sidikalang, Lampung, Pagar Alam<br>
+<strong>爪哇:</strong> Preanger, Garut, Malabar, Temanggung, Ijen, Muria<br>
+<strong>巴厘岛 & 努沙登加拉:</strong> Kintamani, Flores Bajawa<br>
+<strong>苏拉威西:</strong> Toraja Kalosi, Enrekang, Mamasa<br>
+<strong>巴布亚:</strong> Wamena, Moanemani`,
                 flavor: '青草味，泥土味，清新',
-                origin: '中爪哇和巴厘岛',
-                brew: '浅烘焙浸泡，冷萃'
             },
             ar: {
                 title: 'قهوة خضراء',
-                desc: 'تقدم القهوة الخضراء ملفًا طازجًا وحيويًا، حيث تعرض الطابع الخام للحبوب غير المحمصة. خفيفة وعشبية ومنشطة، توفر تجربة فريدة لأولئك الذين يبحثون عن شيء مختلف بشكل طبيعي.',
+                desc: `<strong>حبوب البن الأخضر من إندونيسيا: مصدر التميز</strong><br>
+يتم الحصول على حبوب البن الأخضر لدينا من أرقى مزارع البن في جميع أنحاء الأرخبيل الإندونيسي. تم اختيارها بعناية ومراقبتها بصرامة من حيث الجودة، وتعد حبوبنا الخضراء مثالية للمحامص المنزلية والمحامص المحترفة التي تتطلع إلى استكشاف وتطوير ملفات التحميص الفريدة الخاصة بها.<br><br>
+<strong>المواصفات الفنية والجودة</strong><br>
+لضمان أداء تحميص مثالي، تلبي جميع حبوبنا الخضراء معايير الصناعة التالية:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>معيار الجودة</th>
+            <th>وصف المعيار</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>الدرجة</td><td>درجة 1 / درجة مختصة (عيوب قليلة جدًا)</td></tr>
+        <tr><td>محتوى الرطوبة</td><td>11% – 12.5% (مثالي لاستقرار التخزين)</td></tr>
+        <tr><td>الكثافة</td><td>كثافة عالية (حبوب صلبة، مقاومة للحرارة العالية)</td></tr>
+        <tr><td>سنة الحصاد</td><td>المحصول الحالي (أحدث حصاد لأقصى نضارة)</td></tr>
+        <tr><td>الفرز</td><td>فرز مزدوج / ثلاثي (إزالة العيوب يدويًا)</td></tr>
+    </tbody>
+</table><br>
+<strong>مجموعة الحبوب الخضراء</strong><br>
+يتم تصنيف اختياراتنا المتاحة من الحبوب الخضراء حسب طريقة المعالجة والمنشأ:<br><br>
+<strong>1. حسب طريقة المعالجة</strong><br>
+<strong>غسيل كامل:</strong> ملف كوب نظيف مع حموضة مشرقة واتساق ممتاز.<br>
+<strong>غسيل نصفي (تقشير رطب):</strong> قوام قوي مع نوتات توابل وترابية إندونيسية مميزة.<br>
+<strong>معالجة عسلية:</strong> حلاوة عالية مع ملمس كريمي في الفم.<br>
+<strong>معالجة طبيعية:</strong> نكهات فاكهية مكثفة ورائحة معقدة.<br>
+<strong>معالجة لاهوائية / نبيذية:</strong> روائح غريبة مع ملفات نكهة مميزة وفريدة للغاية.<br><br>
+<strong>2. حسب المنطقة (أصل واحد)</strong><br>
+<strong>سومطرة:</strong> Aceh Gayo, Mandailing, Lintong, Sidikalang, Lampung, Pagar Alam<br>
+<strong>جاوة:</strong> Preanger, Garut, Malabar, Temanggung, Ijen, Muria<br>
+<strong>بالي ونوسا تينجارا:</strong> Kintamani, Flores Bajawa<br>
+<strong>سولاويزي:</strong> Toraja Kalosi, Enrekang, Mamasa<br>
+<strong>بابوا:</strong> Wamena, Moanemani`,
                 flavor: 'عشبي، ترابي، طازج',
-                origin: 'جاوة الوسطى وبالي',
-                brew: 'منقوع تحميص خفيف، تحضير بارد'
             },
             img: 'img/overview 6.jpeg'
         }
@@ -721,10 +1245,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const content = data[currentLang];
             document.getElementById('MainImg').src = data.img;
             document.getElementById('product-name').textContent = content.title;
-            document.getElementById('product-desc').textContent = content.desc;
+            document.getElementById('product-desc').innerHTML = content.desc;
             document.getElementById('product-flavor').textContent = content.flavor;
-            document.getElementById('product-origin').textContent = content.origin;
-            document.getElementById('product-brew').textContent = content.brew;
         } else {
             document.getElementById('product-name').textContent = "Product Not Found";
         }
@@ -733,11 +1255,58 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Contact Form Handler ---
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            // Allow the form to submit naturally to the action URL
+        // Initialize EmailJS (Replace "YOUR_PUBLIC_KEY" with your actual public key from EmailJS dashboard)
+        if (typeof emailjs !== 'undefined') {
+            emailjs.init("QtTiMITKt9XhiLImZ");
+        }
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            const status = document.getElementById('form-status');
+            const form = event.target;
             const submitBtn = contactForm.querySelector('button[type="submit"]');
-            submitBtn.textContent = 'Sending...';
-        });
+            
+            // Honeypot Spam Protection
+            const honeypot = form.querySelector('input[name="_gotcha"]');
+            if (honeypot && honeypot.value) {
+                return; // Silent return for bots
+            }
+
+            const currentLang = localStorage.getItem('ujc_lang') || 'en';
+            const langTranslations = translations[currentLang] || translations['en'];
+
+            submitBtn.textContent = langTranslations.form_sending;
+            submitBtn.disabled = true;
+            status.innerHTML = '';
+            status.className = '';
+
+            // EmailJS Configuration (Replace with your actual IDs)
+            const serviceID = "service_6m9v6e4";
+            const templateID = "template_3bd8j1s";
+
+            try {
+                const response = await emailjs.sendForm(serviceID, templateID, form);
+
+                if (response.status === 200) {
+                    status.innerHTML = langTranslations.form_success;
+                    status.className = 'form-status-success';
+                    form.reset();
+                } else {
+                    status.innerHTML = langTranslations.form_error;
+                    status.className = 'form-status-error';
+                }
+            } catch (error) {
+                console.error("EmailJS Error:", error);
+                status.innerHTML = langTranslations.form_error;
+                status.className = 'form-status-error';
+            } finally {
+                submitBtn.disabled = false;
+                // Restore button text to the correct language
+                const finalLang = localStorage.getItem('ujc_lang') || 'en';
+                submitBtn.textContent = (translations[finalLang] || translations['en']).form_send;
+            }
+        }
+        contactForm.addEventListener("submit", handleSubmit);
     }
 
     // Initialize

@@ -23,6 +23,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -83,7 +86,7 @@
             <div class="contact-hero-content scroll-reveal">
                 <h2 class="hero-headline" data-i18n="contact_hero_title">Ready to bring Indonesian coffee to your market?</h2>
                 <p class="hero-subtext" data-i18n="contact_hero_desc">We are dedicated to sourcing the finest beans from the archipelago. Let's discuss how we can support your business with premium quality and reliable logistics.</p>
-                <a href="#contact-form-section" class="btn btn-tan" data-i18n="contact_btn_hero">Contact</a>
+                <a href="#contact-form-area" class="btn btn-tan" data-i18n="contact_btn_hero">Contact</a>
             </div>
         </div>
     </section>
@@ -102,6 +105,37 @@
                 <div class="gallery-item"><img src="img/overview 6.jpeg"></div>
                 <div class="gallery-item"><img src="img/overview 1.jpeg"></div>
             </div>
+        </div>
+    </section>
+
+    <!-- New Contact Form Section -->
+    <section id="contact-form-area" class="section-padding">
+        <div class="container">
+            <div class="section-header scroll-reveal" style="margin-bottom: 40px;">
+                <h2 data-i18n="form_title">Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+            <form id="contact-form" class="clean-form scroll-reveal" style="max-width: 800px; margin: 0 auto;">
+                <!-- Honeypot for spam protection (hidden field) -->
+                <input type="text" name="_gotcha" style="display:none">
+                
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name">Name</label>
+                    <input type="text" id="name" name="name" class="soft-input" placeholder="Your name and company name" data-i18n-placeholder="form_ph_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">Email</label>
+                    <input type="email" id="email" name="email" class="soft-input" placeholder="Email" data-i18n-placeholder="form_email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message">Message</label>
+                    <textarea id="message" name="message" rows="6" class="soft-input" placeholder="Message" data-i18n-placeholder="form_message" required></textarea>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <button type="submit" class="btn btn-dark-brown" data-i18n="form_send">Send Message</button>
+                </div>
+            </form>
+            <div id="form-status" style="max-width: 800px; margin: 20px auto 0;"></div>
         </div>
     </section>
 

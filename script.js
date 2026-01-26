@@ -631,7 +631,6 @@ Below is our selection of premium Robusta coffees sourced from Indonesia’s mai
         <tr><td>Sumatra / Samosir</td><td>Kali Putih</td><td>Vietnam (Import Quality)</td></tr>
     </tbody>
 </table>`,
-                flavor: 'Creamy, Nutty, Sweet',
             },
             id: {
                 title: 'Robusta Premium',
@@ -667,7 +666,6 @@ Berikut adalah koleksi Robusta terbaik kami yang berasal dari berbagai daerah pe
         <tr><td>Sumatra / Samosir</td><td>Kali Putih</td><td>Vietnam (Import Quality)</td></tr>
     </tbody>
 </table>`,
-                flavor: 'Creamy, Kacang, Manis',
             },
             zh: {
                 title: '优质罗布斯塔',
@@ -703,7 +701,6 @@ Berikut adalah koleksi Robusta terbaik kami yang berasal dari berbagai daerah pe
         <tr><td>苏门答腊 / 沙摩西 (Samosir)</td><td>Kali Putih</td><td>越南 (进口品质)</td></tr>
     </tbody>
 </table>`,
-                flavor: '奶油味，坚果味，甜味',
             },
             ar: {
                 title: 'روبوستا فاخرة',
@@ -739,7 +736,6 @@ Berikut adalah koleksi Robusta terbaik kami yang berasal dari berbagai daerah pe
         <tr><td>سومطرة / ساموسير (Samosir)</td><td>كالي بوتيه (Kali Putih)</td><td>فيتنام (جودة استيراد)</td></tr>
     </tbody>
 </table>`,
-                flavor: 'كريمي، مكسرات، حلو',
             },
             img: 'img/overview 3.jpeg'
         },
@@ -827,12 +823,91 @@ Wine-like character with strong exotic fruit notes and intense aromatics.<br>
         <tr><td>Gayo (Wine)</td><td>Garut (Wine)</td></tr>
     </tbody>
 </table>`,
-                flavor: 'Floral, Fruity, Berry',
             },
             id: {
                 title: 'Arabika Premium',
                 desc: 'Kopi Arabika menonjolkan kemurnian dan kompleksitas, menawarkan cangkir yang bersih dan aromatik yang mencerminkan karakter asalnya. Halus, elegan, dan manis alami — ini adalah kopi dalam bentuk paling murni.',
-                flavor: 'Floral, Buah, Berry',
+                desc: `<strong>1. Proses Full Wash (Cuci Penuh)</strong><br>
+<strong>Deskripsi</strong><br>
+Sebuah proses di mana ceri kopi dikupas (pulping) dan difermentasi dalam air untuk menghilangkan lendir (mucilage) sepenuhnya sebelum dijemur.<br>
+<strong>Profil Rasa</strong><br>
+Menghasilkan cangkir yang sangat bersih (clean cup), keasaman yang cerah (bright acidity), dan menonjolkan karakter asli dari daerah tumbuhnya.<br>
+<strong>Daftar Produk Arabica Full Wash</strong><br>
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Gayo</td><td>Mekarwangi</td><td>Arjuno</td></tr>
+        <tr><td>Papandayan</td><td>Bali Premium</td><td>Papua</td></tr>
+        <tr><td>Batang</td><td>Papua Wamena</td><td>Blue Batak</td></tr>
+        <tr><td>Puntang</td><td>Cikuray</td><td>Preanger</td></tr>
+        <tr><td>Ciuhurip</td><td>Samosir</td><td>Ciwidey</td></tr>
+        <tr><td>Semeru</td><td>Enrekang</td><td>Somendo</td></tr>
+        <tr><td>Flores Manggarai</td><td>Temanggung</td><td>Flores Bajawa</td></tr>
+        <tr><td>Timor Timur</td><td>Garut Nanas</td><td>Toraja Kalosi</td></tr>
+        <tr><td>Garut Yellow Bourbon</td><td>Gunung Tilu</td><td>Garut Yellow Caturra</td></tr>
+        <tr><td>Kerinci</td><td>Gayo Premium</td><td>Kintamani</td></tr>
+        <tr><td>Gunung Halu</td><td>Malabar</td><td>Gunung Lawu</td></tr>
+        <tr><td>Linggar Jati</td><td>Mandailing</td><td>Mandailing Specialty</td></tr>
+    </tbody>
+</table><br>
+
+<strong>2. Proses Semi Wash (Giling Basah)</strong><br>
+<strong>Deskripsi</strong><br>
+Proses tradisional Indonesia di mana kulit luar dihilangkan, dan kopi dijemur setengah kering sebelum lapisan kulit tanduk (parchment) dikupas.<br>
+<strong>Profil Rasa</strong><br>
+Body tebal dengan keasaman rendah, sering kali menampilkan aroma rempah dan tanah (spicy & earthy notes).<br>
+<strong>Daftar Produk Arabica Semi Wash</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Aceh Long Berry</td><td>Aceh Pea Berry</td><td>Lintong</td></tr>
+        <tr><td>Sidikalang</td><td>Gayo Special</td><td>Toraja Mamasa</td></tr>
+    </tbody>
+</table><br>
+
+<strong>3. Proses Honey (Madu)</strong><br>
+<strong>Deskripsi</strong><br>
+Kulit luar dihilangkan sementara sebagian lendir manis (mucilage) dibiarkan menempel pada biji selama proses pengeringan.<br>
+<strong>Profil Rasa</strong><br>
+Rasa manis lembut seperti madu, body yang creamy, dan keasaman yang seimbang.<br>
+<strong>Daftar Produk Arabica Honey</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Bali Kintamani</td><td>Ethiopia</td><td>Bondowoso</td></tr>
+        <tr><td>Garut</td><td>Brazil</td><td>Gayo</td></tr>
+        <tr><td>Burundi</td><td>Kenya</td><td>Colombia</td></tr>
+        <tr><td>Kilimanjaro</td><td>Puntang Black</td><td></td></tr>
+    </tbody>
+</table><br>
+
+<strong>4. Proses Natural (Alami)</strong><br>
+<strong>Deskripsi</strong><br>
+Ceri kopi dijemur utuh dengan kulit dan daging buahnya di bawah sinar matahari alami.<br>
+<strong>Profil Rasa</strong><br>
+Aroma buah yang intens, rasa manis seperti buah beri, dan profil rasa yang sangat kompleks.<br>
+<strong>Daftar Produk Arabica Natural</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Bali Natural</td><td>Flores Bajawa</td><td>Gayo Natural</td></tr>
+        <tr><td>Gunung Patuha</td><td>Java Carlos</td><td>Red Natural</td></tr>
+    </tbody>
+</table><br>
+
+<strong>5. Proses Anaerobic & Wine</strong><br>
+<strong>Deskripsi</strong><br>
+Fermentasi dilakukan dalam wadah kedap udara (tanpa oksigen) untuk menciptakan profil rasa yang sangat aromatik dan khas.<br>
+<strong>Profil Rasa</strong><br>
+Karakter seperti anggur (winey) dengan aroma buah eksotis yang kuat dan sangat aromatik.<br>
+<strong>Daftar Produk Arabica Specialty</strong><br>
+<table class="variant-table">
+    <tbody>
+        <tr><td>Exotis Jagong Jeget (Anaerobic)</td><td>Gunung Puntang (Wine)</td></tr>
+        <tr><td>Gayo (Wine)</td><td>Garut (Wine)</td></tr>
+    </tbody>
+</table>`,
             },
             zh: {
                 title: '优质阿拉比卡',
@@ -887,7 +962,6 @@ Wine-like character with strong exotic fruit notes and intense aromatics.<br>
 在密闭容器（无氧）中发酵，创造出高度芳香和独特的风味。<br>
 <strong>风味特征</strong><br>
 具有红酒般的特征，带有强烈的异国水果味和浓郁香气。`,
-                flavor: '花香，果香，浆果味',
             },
             ar: {
                 title: 'أرابيكا فاخرة',
@@ -942,7 +1016,6 @@ Wine-like character with strong exotic fruit notes and intense aromatics.<br>
 يتم التخمير في حاويات محكمة الإغلاق (بدون أكسجين) لإنشاء ملفات نكهة عطرية ومميزة للغاية.<br>
 <strong>ملف النكهة</strong><br>
 طابع يشبه النبيذ مع نوتات فواكه استوائية قوية وروائح مكثفة.`,
-                flavor: 'زهري، فاكهي، توت',
             },
             img: 'img/overview8.jpeg'
         },
@@ -990,12 +1063,51 @@ Choose Arabica-dominant options such as Specialty Blend or Honey Blend.<br>
 Use Espresso Blend or Kopi Susu Blend for bold flavor and cost efficiency.<br>
 <strong>For Traditional Indonesian Coffee (Kopi Tubruk)</strong><br>
 Classic Blend delivers a familiar aroma and taste loved by local coffee drinkers.`,
-                flavor: 'Dark Chocolate, Caramel',
             },
             id: {
                 title: 'Signature Blend',
                 desc: 'Signature Blend adalah jantung dari Universal Java Coffee — perpaduan yang seimbang dirancang untuk menciptakan harmoni di setiap cangkir. Berani namun halus, dibuat untuk dikenang, menenangkan, dan tak tertukar.',
-                flavor: 'Cokelat Hitam, Karamel',
+                desc: `<strong>KOPI BLEND INDONESIA: HARMONI YANG SEMPURNA</strong><br>
+Kopi blend kami adalah seni menggabungkan biji kopi pilihan dari berbagai daerah di Indonesia untuk menciptakan profil rasa yang unik, konsisten, dan seimbang sempurna. Kami menyatukan dengan cermat karakteristik aromatik dan kompleks dari Arabika dengan kekuatan Robusta yang tebal dan berani—menghasilkan cangkir yang sempurna untuk setiap tujuan.<br><br>
+<strong>Mengapa Memilih Blend Kami?</strong><br>
+<strong>Keseimbangan Rasa</strong><br>
+Dibuat dengan presisi untuk menyelaraskan keasaman, kemanisan, dan body.<br>
+<strong>Konsistensi</strong><br>
+Setiap batch diproduksi dengan profil rasa yang sama untuk menjaga standar kualitas yang andal.<br>
+<strong>Fleksibilitas</strong><br>
+Ideal untuk berbagai metode seduh, dari mesin Espresso dan Moka Pot hingga minuman kopi susu modern.<br><br>
+<strong>Varian House Blend & Campuran</strong><br>
+Di bawah ini adalah koleksi eksklusif dari blend andalan kami:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Nama Blend</th>
+            <th>Deskripsi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Specialty Blend</strong></td><td>Campuran premium dari biji Arabika pilihan (Blue Mountain & Bali), memberikan profil rasa yang mewah dan kompleks.</td></tr>
+        <tr><td><strong>2. House Blend</strong></td><td>Kombinasi seimbang dari Arabika Gayo dan Robusta Toraja, cocok untuk kopi hitam maupun minuman berbasis susu.</td></tr>
+        <tr><td><strong>3. Espresso Blend</strong></td><td>Campuran yang diformulasikan khusus dari Arabika Gayo, Robusta Dampit, dan kopi Toraja, menghasilkan crema tebal dan rasa yang kuat.</td></tr>
+        <tr><td><strong>4. Kopi Susu Blend</strong></td><td>Dirancang khusus untuk memastikan karakter kopi tetap dominan saat dipadukan dengan susu dan gula aren.</td></tr>
+        <tr><td><strong>5. Classic Blend</strong></td><td>Perpaduan Robusta Kerinci dengan Arabika Puntang & Majalaya, menawarkan pengalaman kopi tradisional yang otentik.</td></tr>
+        <tr><td><strong>6. Italian Roast</strong></td><td>Profil sangrai gelap untuk rasa yang sangat kuat dengan keasaman yang sangat rendah.</td></tr>
+        <tr><td><strong>7. Jackfruit Blend</strong></td><td>Campuran unik yang menampilkan aroma nangka eksotis dengan kemanisan alami.</td></tr>
+        <tr><td><strong>8. Honey Blend</strong></td><td>Campuran biji kopi proses Madu, menonjolkan tekstur halus dan rasa manis seperti madu.</td></tr>
+    </tbody>
+</table><br>
+<strong>Panduan Pemilihan Blend</strong><br>
+<strong>Untuk Pecinta Kopi Hitam</strong><br>
+Pilih opsi yang dominan Arabika seperti Specialty Blend atau Honey Blend.<br>
+<strong>Untuk Kedai Kopi / Es Kopi Susu</strong><br>
+Gunakan Espresso Blend atau Kopi Susu Blend untuk rasa yang kuat dan efisiensi biaya.<br>
+<strong>Untuk Kopi Tubruk Tradisional</strong><br>
+Classic Blend memberikan aroma dan rasa yang akrab dan disukai oleh penikmat kopi lokal.`,
             },
             zh: {
                 title: '招牌拼配',
@@ -1032,7 +1144,6 @@ Classic Blend delivers a familiar aroma and taste loved by local coffee drinkers
         <tr><td><strong>8. 蜜处理拼配 (Honey Blend)</strong></td><td>蜜处理咖啡豆的拼配，突出口感顺滑和蜂蜜般的甜味。</td></tr>
     </tbody>
 </table>`,
-                flavor: '黑巧克力，焦糖',
             },
             ar: {
                 title: 'مزيج التوقيع',
@@ -1069,7 +1180,6 @@ Classic Blend delivers a familiar aroma and taste loved by local coffee drinkers
         <tr><td><strong>8. مزيج العسل (Honey Blend)</strong></td><td>مزيج من حبوب البن المعالجة بالعسل، يبرز الملمس الناعم والحلاوة التي تشبه العسل.</td></tr>
     </tbody>
 </table>`,
-                flavor: 'شوكولاتة داكنة، كراميل',
             },
             img: 'img/overview 2.jpeg'
         },
@@ -1131,12 +1241,65 @@ Wamena, Moanemani<br><br>
 Fast stock turnover ensures consistently fresh green beans.<br>
 <strong>Stable Quality</strong><br>
 High sorting standards make it easier for roasters to define and maintain precise roast profiles`,
-                flavor: 'Grassy, Earthy, Fresh',
             },
             id: {
                 title: 'Kopi Hijau',
                 desc: 'Kopi Hijau menawarkan profil segar dan bersemangat, menampilkan karakter mentah biji yang belum dipanggang. Ringan, herbal, dan memberi energi, memberikan pengalaman unik bagi mereka yang mencari sesuatu yang alami berbeda.',
-                flavor: 'Rumput, Tanah, Segar',
+                desc: `<strong>GREEN BEAN DARI INDONESIA: SUMBER KEUNGGULAN</strong><br>
+Biji kopi hijau (green bean) kami berasal dari perkebunan kopi terbaik di seluruh nusantara. Dipilih dengan cermat dan dikontrol kualitasnya secara ketat, biji kopi hijau kami ideal untuk roaster rumahan dan roastery profesional yang ingin mengeksplorasi dan mengembangkan profil sangrai unik mereka sendiri.<br><br>
+<strong>SPESIFIKASI TEKNIS & KUALITAS</strong><br>
+Untuk memastikan kinerja sangrai yang optimal, semua biji kopi hijau kami memenuhi standar industri berikut:
+<style>
+    .variant-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+    .variant-table th, .variant-table td { padding: 8px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+    .variant-table th { background-color: #f5f5f5; font-weight: 600; }
+</style>
+<table class="variant-table">
+    <thead>
+        <tr>
+            <th>Parameter Kualitas</th>
+            <th>Deskripsi Standar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Grade</td><td>Grade 1 / Specialty Grade (Cacat minimal)</td></tr>
+        <tr><td>Kadar Air</td><td>11% – 12.5% (Ideal untuk stabilitas penyimpanan)</td></tr>
+        <tr><td>Kepadatan</td><td>Kepadatan Tinggi (Biji keras, tahan panas tinggi)</td></tr>
+        <tr><td>Tahun Panen</td><td>Panen Terbaru (Untuk kesegaran maksimal)</td></tr>
+        <tr><td>Sortasi</td><td>Double / Triple Picked (Pemisahan cacat manual)</td></tr>
+    </tbody>
+</table><br>
+<strong>KOLEKSI GREEN BEAN</strong><br>
+Pilihan biji kopi hijau kami yang tersedia dikategorikan berdasarkan metode proses dan asal:<br><br>
+<strong>1. Berdasarkan Metode Proses</strong><br>
+<strong>Full Wash</strong><br>
+Profil cangkir bersih dengan keasaman cerah dan konsistensi yang sangat baik.<br>
+<strong>Semi Wash (Giling Basah)</strong><br>
+Body kuat dengan aroma rempah dan tanah khas Indonesia.<br>
+<strong>Proses Honey</strong><br>
+Tingkat kemanisan tinggi dengan sensasi mulut yang creamy.<br>
+<strong>Proses Natural</strong><br>
+Rasa buah yang intens dan aroma yang kompleks.<br>
+<strong>Proses Anaerobic / Wine</strong><br>
+Aroma eksotis dengan profil rasa yang sangat khas dan unik.<br><br>
+<strong>2. Berdasarkan Wilayah (Single Origin)</strong><br>
+<strong>Sumatra</strong><br>
+Aceh Gayo, Mandailing, Lintong, Sidikalang, Lampung, Pagar Alam<br>
+<strong>Jawa</strong><br>
+Preanger, Garut, Malabar, Temanggung, Ijen, Muria<br>
+<strong>Bali & Nusa Tenggara</strong><br>
+Kintamani, Flores Bajawa<br>
+<strong>Sulawesi</strong><br>
+Toraja Kalosi, Enrekang, Mamasa<br>
+<strong>Papua</strong><br>
+Wamena, Moanemani<br><br>
+<strong>MENGAPA MEMBELI DARI UNIVERSAL JAVA COFFEE</strong><br>
+<strong>Ketertelusuran (Traceability)</strong><br>
+Jaminan keaslian asal 100% untuk setiap biji kopi.<br>
+<strong>Kesegaran</strong><br>
+Perputaran stok yang cepat memastikan biji kopi hijau yang selalu segar.<br>
+<strong>Kualitas Stabil</strong><br>
+Standar sortasi yang tinggi memudahkan roaster untuk menentukan dan mempertahankan profil sangrai yang presisi`,
             },
             zh: {
                 title: '生咖啡',
@@ -1178,7 +1341,6 @@ High sorting standards make it easier for roasters to define and maintain precis
 <strong>巴厘岛 & 努沙登加拉:</strong> Kintamani, Flores Bajawa<br>
 <strong>苏拉威西:</strong> Toraja Kalosi, Enrekang, Mamasa<br>
 <strong>巴布亚:</strong> Wamena, Moanemani`,
-                flavor: '青草味，泥土味，清新',
             },
             ar: {
                 title: 'قهوة خضراء',
@@ -1220,7 +1382,6 @@ High sorting standards make it easier for roasters to define and maintain precis
 <strong>بالي ونوسا تينجارا:</strong> Kintamani, Flores Bajawa<br>
 <strong>سولاويزي:</strong> Toraja Kalosi, Enrekang, Mamasa<br>
 <strong>بابوا:</strong> Wamena, Moanemani`,
-                flavor: 'عشبي، ترابي، طازج',
             },
             img: 'img/overview 6.jpeg'
         }
@@ -1257,7 +1418,7 @@ High sorting standards make it easier for roasters to define and maintain precis
     if (contactForm) {
         // Initialize EmailJS (Replace "YOUR_PUBLIC_KEY" with your actual public key from EmailJS dashboard)
         if (typeof emailjs !== 'undefined') {
-            emailjs.init("QtTiMITKt9XhiLImZ");
+            emailjs.init("9jwmbo0GQLiD2nM1T");
         }
 
         async function handleSubmit(event) {
@@ -1281,8 +1442,8 @@ High sorting standards make it easier for roasters to define and maintain precis
             status.className = '';
 
             // EmailJS Configuration (Replace with your actual IDs)
-            const serviceID = "service_6m9v6e4";
-            const templateID = "template_3bd8j1s";
+            const serviceID = "service_nmr7ibe";
+            const templateID = "template_4v04b41";
 
             try {
                 const response = await emailjs.sendForm(serviceID, templateID, form);
